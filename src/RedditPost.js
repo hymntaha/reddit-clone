@@ -1,6 +1,7 @@
 import React from 'react';
+import './RedditPost.css';
 
-const style = {display:'flex', flexDirection:'column', marginBottom:30}
+const style = {}
 
 export default () => {
   return (
