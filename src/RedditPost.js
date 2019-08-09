@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './RedditPost.css';
 
-export default () => {
+export default (props) => {
   return (
     <div className={styles.redditPostContainer}>
-      <a href="http://google.com">My buddy's dog saw a moose</a>
+      <a href="http://google.com">{props.title}</a>
       <div className={styles.redditPostBottomContainer}>
         <p  className={styles.comments}>
-          580 Comments
+          {props.comments}
         </p>
         <p>
           Submitted 5 minutes ago
