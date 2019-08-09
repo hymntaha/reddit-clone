@@ -1,11 +1,9 @@
 import React from 'react';
 import './RedditPost.css';
 
-const style = {}
-
 export default () => {
   return (
-    <div style={style}>
+    <div className='redditPostContainer'>
       <a href="http://google.com">My buddy's dog saw a moose</a>
       <div style={{display:'flex', flexDirection:'row'}}>
         <p style={{marginRight: 30}}>
