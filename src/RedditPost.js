@@ -5,8 +5,8 @@ export default () => {
   return (
     <div className='redditPostContainer'>
       <a href="http://google.com">My buddy's dog saw a moose</a>
-      <div style={{display:'flex', flexDirection:'row'}}>
-        <p style={{marginRight: 30}}>
+      <div className="redditPostBottomContainer">
+        <p  className="comments">
           580 Comments
         </p>
         <p>
